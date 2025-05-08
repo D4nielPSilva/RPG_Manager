@@ -1,0 +1,58 @@
+
+body {
+    background-image: radial-gradient(#13036e, #000000);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#login_box {
+    display: flex;
+    background-color: rgb(43, 66, 139);
+    width: 60vh;
+    height: 90vh;
+    margin-top: 5vh;
+    align-items: center;
+    border-radius: 2px;
+    border: 2px, solid, rgb(143, 143, 143);
+    flex-direction: column;
+}
+#img_logo {
+    margin-top: 15%;
+    border: 2px, solid, rgb(143, 143, 143);
+    max-height: 250px;
+    max-width: 250px;
+}
+#area_formulario {
+    margin-top: 10%;
+}
+.campo_email{
+    padding-left: 5px;
+    width: 245px;
+    height: 30px;
+    font-size: 20px;
+}
+.campo_senha{
+    padding-left: 5px;
+    margin-top: 10%;
+    width: 245px;
+    height: 30px;
+    font-size: 20px;
+}
+.btn_submit{
+    margin-top: 50px;
+    width: 200px;
+    height: 50px;
+    margin-left: 28px;
+    font-size: 30px;
+}
+::placeholder{
+    padding-left: 5px;
+}
+#cadastrar{
+    margin-top: 20px;
+}
+#cadastrar>a{
+    color: white;
+}
+
